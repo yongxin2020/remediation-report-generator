@@ -1,0 +1,70 @@
+user_id,id_seance_num,age_group,induction_group,date_session_string,textual_start_time,nb_activités,nb_exercices,duration_session_str,start_time,duration_session,num_réussi,num_moyen,num_raté,taux_réussite,réponse_affect_start,rep_long_courte,num_tokens_unique,sum_duration_speak,débit_parole,num_token_per_utterance_mean,num_token_per_utterance_max,num_token_per_utterance_min,duration_utterance_mean,duration_utterance_max,duration_utterance_min,lexical_diversity_TTR,lexical_diversity_BI,lexical_diversity_HS,c_density_score,p_density_score
+A01A,A01A_seance1_1512,A,A,15 Décembre,15 heures et demie,16,8,environ une heure et demie,15:37,77,6,3,7,37.5,bien,courte,308,871.599,4.0,7.0,46,1,6.2,22.3,1.47,0.31,14.52,777.24,0.57,0.47
+A01B,A01B_seance1_1412,A,B,14 Décembre,14 heures et demie,16,8,environ une heure,14:17,59,12,1,3,75.0,,,396,1157.075,3.6,8.6,83,1,7.7,30.56,2.05,0.3,14.5,817.25,0.59,0.48
+A01C,A01C_seance1_1101,A,C,11 Janvier,15 heures et demie,16,8,environ une heure,15:16,61,8,4,4,50.0,,,365,1245.4039999999998,4.1,11.9,69,1,8.2,69.898,2.701,0.2,17.02,829.67,0.64,0.51
+A01D,A01D_seance1_1612,A,D,16 Décembre,11 heures et demie,16,8,environ une heure,11:17,72,7,5,4,43.8,,,354,1174.7509999999997,2.8,9.0,59,1,7.8,38.0,1.31,0.26,15.45,820.49,0.67,0.41
+A01E,A01E_seance1_1806,A,E,18 Juin,10 heures et demie,16,8,environ une heure,10:20,69,14,2,0,87.5,,,371,987.7040000000002,3.9,11.5,59,4,8.1,33.38,1.216,0.26,15.34,825.8,0.56,0.45
+A01E,A01E_seance2_2406,A,E,24 Juin,15 heures,16,8,environ une heure,14:45,60,12,2,2,75.0,bien,courte,463,1474.6319999999996,3.3,12.0,61,1,9.6,45.4,1.46,0.25,15.34,841.93,0.64,0.54
+A02A,A02A_seance1_1301,A,A,13 Janvier,11 heures et demie,16,8,environ une heure,11:38,73,11,2,3,68.8,,,749,2525.580999999998,4.7,15.7,93,1,11.5,60.507,2.16,0.22,15.39,876.19,0.65,0.47
+A02B,A02B_seance1_1801,A,B,18 Janvier,11 heures et demie,16,8,environ une heure,11:18,69,10,1,5,62.5,,,404,1633.3259999999993,2.6,9.2,55,3,8.6,35.683,1.68,0.23,16.02,843.72,0.67,0.49
+A02C,A02C_seance1_1801,A,C,18 Janvier,15 heures et demie,16,8,environ une heure et demie,15:23,76,8,3,5,50.0,bien,courte,547,1587.4130000000002,3.7,12.6,61,1,9.8,34.7,1.77,0.27,14.77,859.1,0.57,0.41
+A02D,A02D_seance1_1901,A,D,19 Janvier,15 heures,16,8,environ une heure,15:13,59,10,4,2,62.5,bien,courte,436,969.8939999999998,4.5,11.4,83,1,7.8,31.37,2.649,0.31,14.35,823.83,0.59,0.44
+A02E,A02E_seance1_1806,A,E,18 Juin,14 heures,16,8,environ une heure,14:12,52,14,2,0,87.5,,,287,711.9640000000003,4.6,8.9,49,1,5.0,20.975,1.414,0.23,16.58,803.4,0.55,0.48
+A02E,A02E_seance2_2106,A,E,21 Juin,13 heures et demie,16,8,environ une heure,13:18,61,9,5,2,56.2,bien,courte,300,765.2179999999995,4.1,10.2,58,3,6.8,26.809,1.613,0.26,15.63,801.34,0.59,0.46
+A03A,A03A_seance1_1301,A,A,13 Janvier,15 heures et demie,16,8,environ une heure et demie,15:34,82,10,3,3,62.5,bien,courte,274,1540.1939999999997,2.0,8.4,86,1,11.4,65.645,2.474,0.24,16.18,779.8,0.61,0.47
+A03B,A03B_seance1_1901,A,B,19 Janvier,11 heures,16,8,environ une heure,11:9,59,11,2,3,68.8,bien,courte,426,1273.4289999999996,3.5,10.6,58,3,8.2,25.33,3.5,0.26,15.27,838.86,0.65,0.48
+A03C,A03C_seance1_0202,A,C,02 Février,15 heures,16,8,environ une heure,15:1,64,5,3,8,31.2,,,430,2153.5239999999985,2.6,9.5,40,1,10.3,37.32,3.09,0.22,16.33,847.33,0.7,0.46
+A03D,A03D_seance1_0202,A,D,02 Février,11 heures,16,8,environ une heure,10:57,64,9,5,2,56.2,,,259,678.0430000000001,3.3,9.7,58,1,7.9,23.89,3.729,0.31,14.74,785.7,0.7,0.45
+A03E,A03E_seance2_1711,A,E,17 Novembre,16 heures,16,8,environ une heure,16:3,67,8,5,3,50.0,bien,courte,461,2003.001999999999,2.6,11.1,47,1,12.6,55.028,3.88,0.26,15.14,815.88,0.62,0.48
+A04A,A04A_seance1_2101,A,A,21 Janvier,11 heures,16,8,environ une heure,11:11,66,10,2,4,62.5,,,456,1788.0700000000008,2.8,11.0,54,4,10.8,36.01,2.784,0.25,15.38,846.95,0.61,0.44
+A04B,A04B_seance1_2801,A,B,28 Janvier,15 heures,16,8,environ une heure et demie,15:6,89,12,1,3,75.0,bien,courte,961,3709.6839999999993,4.3,17.2,138,1,12.9,73.91,2.11,0.19,15.47,925.08,0.62,0.47
+A04C,A04C_seance1_0902,A,C,09 Février,11 heures et demie,16,8,environ une heure,11:25,65,13,1,2,81.2,,,195,921.405,2.1,7.6,29,4,8.4,25.99,3.3,0.23,16.8,757.68,0.69,0.41
+A04D,A04D_seance1_0902,A,D,09 Février,16 heures,16,8,environ une heure et demie,16:0,78,7,5,4,43.8,,,431,1874.612,2.5,12.9,86,1,14.4,153.0,3.71,0.26,15.3,834.56,0.69,0.52
+A04E,A04E_seance1_1011,A,E,10 Novembre,11 heures,16,8,environ une heure,10:56,58,14,2,0,87.5,,,372,1592.7250000000001,2.2,9.9,53,1,11.2,82.05,3.0,0.26,15.35,825.9,0.67,0.48
+A04E,A04E_seance2_1711,A,E,17 Novembre,14 heures,16,8,environ une heure,13:45,59,13,2,1,81.2,bien,courte,402,1865.9440000000002,2.3,9.2,47,1,10.0,37.435,2.67,0.24,15.91,822.95,0.61,0.42
+A05A,A05A_seance1_1002,A,A,10 Février,15 heures et demie,16,8,environ une heure et demie,15:17,75,5,5,6,31.2,,,262,1367.976,2.0,7.4,26,2,8.5,37.206,2.717,0.22,16.88,798.75,0.73,0.46
+A05B,A05B_seance1_0302,A,B,03 Février,15 heures,16,8,environ une heure,15:0,57,13,2,2,76.5,,,207,833.9949999999999,2.2,7.4,64,1,7.7,27.99,3.42,0.25,16.1,781.27,0.67,0.41
+A05C,A05C_seance1_1002,A,C,10 Février,11 heures et demie,16,8,environ une heure et demie,11:31,75,11,4,1,68.8,,,687,1949.0379999999998,4.4,16.0,119,4,11.8,45.51,3.79,0.26,14.61,871.57,0.7,0.48
+A05D,A05D_seance1_1102,A,D,11 Février,11 heures et demie,16,8,environ une heure,11:32,65,8,5,3,50.0,,,423,1510.6430000000005,3.1,11.8,78,4,11.1,36.77,3.237,0.26,15.21,832.96,0.68,0.5
+A05E,A05E_seance1_1011,A,E,10 Novembre,14 heures et demie,16,8,environ une heure,14:26,60,12,3,1,75.0,,,174,506.26100000000014,2.7,6.6,23,1,5.6,14.7,1.85,0.29,15.36,758.74,0.66,0.43
+A05E,A05E_seance2_1911,A,E,19 Novembre,14 heures,16,8,environ une heure,14:0,58,8,7,1,50.0,bien,courte,261,676.606,4.0,12.0,60,1,8.2,27.771,2.73,0.26,15.72,781.13,0.64,0.51
+A06A,A06A_seance1_2302,A,A,23 Février,15 heures et demie,16,8,environ une heure et demie,15:38,77,10,5,1,62.5,,,609,2441.5860000000016,2.8,11.9,102,3,11.9,103.695,3.496,0.25,14.98,872.43,0.67,0.5
+A06B,A06B_seance1_1102,A,B,11 Février,15 heures,16,8,environ une heure,15:2,58,10,1,5,62.5,,,272,1178.522,2.3,8.9,51,3,9.7,39.0,2.9,0.25,15.91,797.88,0.65,0.48
+A06C,A06C_seance1_1602,A,C,16 Février,12 heures et demie,16,8,environ une heure,12:15,62,12,1,3,75.0,,,684,2954.577999999999,3.0,14.7,113,2,15.1,89.66,3.17,0.24,15.06,879.77,0.72,0.43
+A06D,A06D_seance1_1602,A,D,16 Février,15 heures,16,8,environ une heure,15:14,45,16,0,0,100.0,,,218,1308.2789999999998,1.4,7.6,27,1,12.8,58.5,3.901,0.28,15.45,771.05,0.7,0.48
+A06E,A06E_seance1_1011,A,E,10 Novembre,16 heures et demie,16,8,environ une heure et demie,16:38,75,7,4,5,43.8,,,352,681.2850000000001,5.3,13.8,84,1,7.9,30.44,1.67,0.3,14.73,808.22,0.59,0.5
+A06E,A06E_seance2_1611,A,E,16 Novembre,10 heures et demie,16,8,environ une heure,10:33,65,6,7,3,37.5,bien,courte,355,653.2830000000001,5.5,14.7,99,1,8.0,37.3,2.74,0.29,14.78,804.16,0.51,0.51
+A07A,A07A_seance1_2502,A,A,25 Février,15 heures et demie,16,8,environ une heure,15:20,61,12,1,3,75.0,,,491,2657.867,2.0,13.0,80,3,18.5,72.39,2.714,0.26,15.05,839.21,0.7,0.43
+A07B,A07B_seance1_2202,A,B,22 Février,15 heures et demie,16,8,environ une heure,15:35,67,14,1,1,87.5,,,499,1996.013,2.7,14.6,83,1,15.8,86.91,2.48,0.27,14.85,850.17,0.65,0.45
+A07C,A07C_seance1_1802,A,C,18 Février,11 heures et demie,16,8,environ une heure,11:36,62,8,4,4,50.0,,,302,1013.2410000000003,2.9,10.2,54,1,11.1,27.79,3.84,0.33,14.32,782.17,0.64,0.51
+A07D,A07D_seance1_1702,A,D,17 Février,11 heures et demie,16,8,plus d'une heure et demie,11:23,96,12,2,3,70.6,,,486,1722.5860000000016,3.2,10.7,104,1,10.7,43.716,3.225,0.28,14.65,843.17,0.59,0.5
+A07E,A07E_seance1_1211,A,E,12 Novembre,11 heures,16,8,environ une heure,10:48,72,15,2,0,88.2,,,660,1738.2360000000003,4.6,11.6,105,1,7.7,34.84,0.923,0.25,14.81,878.34,0.6,0.43
+A07E,A07E_seance2_1611,A,E,16 Novembre,14 heures,16,8,environ une heure,13:46,66,12,4,0,75.0,bien,courte,498,1742.096,3.3,10.4,86,1,10.2,70.079,1.02,0.28,14.64,832.22,0.59,0.53
+A08A,A08A_seance1_1103,A,A,11 Mars,11 heures et demie,16,8,environ une heure,11:31,61,8,2,6,50.0,,,300,1395.414,2.6,8.7,67,1,8.5,24.333,2.935,0.21,17.01,808.29,0.65,0.5
+A08B,A08B_seance1_2402,A,B,24 Février,15 heures et demie,16,8,environ une heure et demie,15:25,86,11,0,5,68.8,,,404,1580.8640000000005,2.4,7.2,41,1,8.9,24.49,4.08,0.31,14.31,816.66,0.6,0.48
+A08C,A08C_seance1_2402,A,C,24 Février,11 heures et demie,16,8,environ une heure,11:21,64,11,2,3,68.8,,,367,1086.135,3.9,12.5,110,1,11.2,53.69,3.222,0.3,14.59,811.67,0.61,0.5
+A08D,A08D_seance1_0303,A,D,03 Mars,16 heures,16,8,environ une heure et demie,16:1,87,3,8,5,18.8,,,465,2686.172,2.2,8.4,82,1,10.5,32.325,3.578,0.22,16.17,849.15,0.56,0.45
+A08E,A08E_seance1_1211,A,E,12 Novembre,14 heures et demie,16,8,environ une heure,14:21,71,13,3,1,76.5,,,508,2133.9439999999995,3.6,8.7,81,1,5.9,35.81,1.33,0.16,17.81,888.27,0.59,0.43
+A08E,A08E_seance2_0912,A,E,09 Décembre,14 heures et demie,16,8,environ une heure et demie,14:30,80,13,3,0,81.2,bien,courte,495,2941.767,3.1,9.3,65,1,7.5,24.738,1.798,0.14,19.01,900.48,0.57,0.45
+A09E,A09E_seance1_1611,A,E,16 Novembre,16 heures et demie,16,8,environ une heure,16:32,62,13,1,2,81.2,,,346,563.2690000000001,5.7,12.4,66,1,6.2,26.71,1.971,0.31,14.55,813.67,0.67,0.45
+A09E,A09E_seance2_2611,A,E,26 Novembre,10 heures et demie,16,8,environ une heure,10:23,63,11,3,2,68.8,bien,courte,326,490.622,6.8,13.7,55,1,6.1,19.456,1.23,0.29,14.88,800.59,0.62,0.47
+A10E,A10E_seance1_1811,A,E,18 Novembre,11 heures,16,8,environ une heure,11:12,68,11,2,3,68.8,,,725,2191.8599999999983,4.1,12.3,82,1,8.9,114.719,1.283,0.24,14.95,884.81,0.68,0.49
+A11E,A11E_seance1_1811,A,E,18 Novembre,14 heures et demie,16,8,environ une heure,14:38,63,9,1,6,56.2,,,353,1160.0140000000001,2.8,7.1,39,1,6.3,40.702,0.6,0.27,15.24,826.74,0.7,0.49
+A11E,A11E_seance2_0812,A,E,08 Décembre,14 heures et demie,16,8,environ une heure,14:31,51,8,4,4,50.0,bien,courte,320,917.253,3.3,8.0,30,1,6.2,35.776,1.662,0.27,15.35,806.33,0.65,0.49
+A12E,A12E_seance1_1811,A,E,18 Novembre,17 heures et demie,16,8,environ une heure et demie,17:28,82,12,3,1,75.0,,,290,1051.9450000000002,2.8,7.6,54,1,8.3,29.6,3.7,0.3,14.85,778.4,0.63,0.5
+A12E,A12E_seance2_3011,A,E,30 Novembre,13 heures et demie,16,8,environ une heure,13:43,66,11,1,4,68.8,bien,courte,277,872.7880000000002,3.3,9.5,36,1,7.0,25.0,1.75,0.24,16.36,781.78,0.65,0.5
+A13E,A13E_seance1_1911,A,E,19 Novembre,16 heures et demie,16,8,environ une heure et demie,16:30,80,7,2,7,43.8,,,276,857.9150000000001,3.7,9.5,48,1,6.7,36.37,1.27,0.23,16.64,800.93,0.61,0.41
+A13E,A13E_seance2_3011,A,E,30 Novembre,16 heures,16,8,environ une heure,15:55,59,9,3,4,56.2,bien,courte,194,541.7,3.6,7.8,26,1,5.2,13.067,1.608,0.24,16.7,755.12,0.62,0.49
+A14E,A14E_seance1_2411,A,E,24 Novembre,16 heures et demie,16,8,environ une heure et demie,16:19,79,11,3,2,68.8,,,740,3726.167000000001,2.9,10.1,60,1,11.4,94.83,2.29,0.22,15.23,888.44,0.6,0.5
+A14E,A14E_seance2_0112,A,E,01 Décembre,16 heures,16,8,environ une heure,15:59,73,11,2,3,68.8,bien,courte,737,3448.625999999999,3.3,17.3,140,1,16.3,137.256,2.47,0.2,15.8,889.95,0.6,0.45
+A15E,A15E_seance1_0212,A,E,02 Décembre,11 heures,16,8,environ une heure,10:57,60,8,4,4,50.0,,,229,797.9540000000002,2.7,8.4,35,4,7.7,30.97,2.68,0.26,15.87,780.35,0.69,0.42
+A15E,A15E_seance2_1012,A,E,10 Décembre,10 heures et demie,16,8,environ une heure,10:25,49,8,2,6,50.0,bien,courte,207,740.0129999999999,2.7,10.2,49,4,10.0,57.99,2.99,0.27,15.63,760.27,0.6,0.48
+A16E,A16E_seance2_1612,A,E,16 Décembre,16 heures,12,6,environ une heure,15:56,62,10,2,1,76.9,bien,courte,344,1388.7020000000002,3.5,16.1,102,1,13.1,105.544,1.73,0.2,17.09,818.15,0.64,0.54
+A17E,A17E_seance1_1401,A,E,14 Janvier,15 heures,16,8,environ une heure,15:3,59,7,6,3,43.8,,,375,926.77,4.4,11.8,78,1,8.1,32.39,2.698,0.28,15.03,821.33,0.68,0.5
+A17E,A17E_seance2_2101,A,E,21 Janvier,14 heures et demie,16,8,environ une heure,14:30,48,11,2,3,68.8,bien,courte,474,1194.5040000000006,4.8,11.4,73,1,7.4,31.607,0.925,0.26,15.2,846.22,0.49,0.44
+A18E,A18E_seance1_2701,A,E,27 Janvier,15 heures,16,8,environ une heure,15:11,69,11,4,1,68.8,,,182,885.418,1.9,4.8,40,1,7.3,18.0,3.39,0.31,14.91,736.12,0.65,0.5
+A18E,A18E_seance2_0802,A,E,08 Février,14 heures et demie,16,8,environ une heure,14:33,72,9,5,2,56.2,,,196,928.642,2.1,6.3,30,1,8.1,25.29,4.475,0.27,15.64,737.03,0.64,0.47
+A19E,A19E_seance1_1702,A,E,17 Février,15 heures,16,8,environ une heure,15:9,66,14,2,0,87.5,,,269,835.7639999999999,3.2,8.6,51,1,8.6,28.996,3.996,0.32,14.49,774.98,0.57,0.44
+A19E,A19E_seance2_2502,A,E,25 Février,11 heures,16,8,environ une heure,11:3,66,14,2,0,87.5,,,233,676.1139999999999,3.2,8.8,45,1,9.0,29.954,4.037,0.35,14.05,741.37,0.61,0.48
+A20E,A20E_seance1_0303,A,E,03 Mars,11 heures,8,4,environ une demi-heure,11:11,34,7,1,0,87.5,,,268,1283.6949999999997,2.3,6.2,37,1,8.0,24.998,3.41,0.27,15.57,794.39,0.58,0.53
+A20E,A20E_seance2_0903,A,E,09 Mars,10 heures et demie,16,8,environ une heure,10:33,53,14,1,1,87.5,,,203,1093.8220000000001,2.0,6.6,32,1,9.9,52.172,2.961,0.28,15.55,764.49,0.62,0.54

@@ -1,0 +1,43 @@
+Vous devez résumer une séance de remédiation cognitive pour un orthophoniste. Une séance de remédiation cognitive implique un patient et un assistant virtuel. Cet assistant propose des exercices au patient afin de stimuler différentes fonctions cognitives comme le langage, la planification, la mémoire.
+
+Afin de résumer la séance, vous allez exploiter les informations contenues dans le fichier JSON ci-dessous et rédigez un rapport. Le fichier présente les différentes variables avec les explications entre parenthèses :
+
+“date_session_string” (Date de la séance)
+“textual_start_time” (Heure de début de la séance)
+“nb_activités” (Nombre d'activités réalisées)
+“nb_exercices” (Nombre d'exercices réalisés)
+“duration_session_str” (Durée de la séance)
+“num_raté” (Nombre d’activités échouées)
+“num_moyen” (Nombre d'activités partiellement réussies)
+“taux_réussite” (Taux de réussite - activités réussies / activités totales)
+“exo_failed” (Activités échouées)
+“salientEmotions” (Émotions particulièrement manifestées par le patient par rapport aux émotions ressenties par les patients du même groupe)
+
+“Exo_results_TableDict” (Exercices et fonctions cognitives traitées) - Peut être utilisé pour générer un tableau
+(list_of_strings = ["Exercice", "Capacités stimulées", "Essais 1", "Essais 2"], les éléments sont "Noms d'exercices", "Capacités stimulées par chaque exercice", "N1 (Essais 1) : Résultats du premier essai (activité) d'un exercice" et "N2 (Essais 2) : Résultats du deuxième essai d'un exercice".)
+(Seuils: "✅ réussi = exactitude > 80%", "☑ moyen  = exactitude entre 60% et 80%", "❌ non réussi = exactitude < 60%")
+
+“TableDict” (Indicateurs linguistiques) - Peut être utilisé pour générer un tableau
+(list_of_strings = ["Indicateur", "Valeur", "Comparaison", "Norme"], les éléments sont "les indicateurs linguistiques", "les valeurs de ces indicateurs", "une comparaison de sa valeur avec la norme (supérieure ou inférieure)", "la norme de cet indicateur".)
+(comparison = "&#129047;" signifie “🠗”, la valeur est inférieure à la norme ; comparison = "&#129045;" signifie “🠕”, la valeur est supérieure à la norme)
+(Note sur la norme : 37 séances de 20 participants d'un groupe de personnes de la même tranche d'âge que le patient (en utilisant la médiane et les 1ᵉ et 3ᵉ quartiles).)
+(Explications des indicateurs linguistiques : 
+    Taille du vocabulaire : nombre de mots uniques.
+    Temps moyen de parole par heure : en minutes.
+    Débit de parole : nombre de phonèmes par unité de temps en seconde.
+    Taille moyenne d’énoncé : nombre moyen de mots par énoncé.
+    Durée moyenne d’énoncé : en secondes.
+    Diversité lexicale : nombre de mots uniques divisé par le nombre total de mots.
+    Densité lexicale du contenu : nombre de contenus exprimés (verbes, noms, adjectifs, adverbes) divisé par le nombre total de mots.)
+
+Le rapport ne doit pas contenir de diagnostic ou d’interprétation mais se concentrer sur les données factuelles. Il vaut mieux rester sur des observations descriptives, objectives et neutres.
+
+Exemple :
+
+JSON :
+
+{{Variables}}
+
+
+Veuillez rédiger un rapport afin d’informer un orthophoniste sur le déroulé de cette séance, fournissez votre réponse dans un bloc de code markdown :
+

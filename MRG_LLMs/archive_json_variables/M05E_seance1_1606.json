@@ -1,0 +1,82 @@
+{
+    "date_session_string": "16 Juin",
+    "textual_start_time": "15 heures",
+    "nb_activités": 8,
+    "nb_exercices": 4,
+    "duration_session_str": "moins d'une demi-heure",
+    "num_raté": 0,
+    "num_moyen": 1,
+    "taux_réussite": 87.5,
+    "exo_failed": "",
+    "salientEmotions": "intéressé, détendu",
+    "Exo_results_TableDict": {
+        "Row_0": {
+            "Exercice": "Retrouvez votre chemin",
+            "Capacités stimulées": "Mémoire de travail visuelle, Mémoire visuo-spatiale",
+            "N1": "✅",
+            "N2": "☑"
+        },
+        "Row_1": {
+            "Exercice": "Objets, où êtes-vous ?",
+            "Capacités stimulées": "Mémoire visuo-spatiale",
+            "N1": "✅",
+            "N2": "✅"
+        },
+        "Row_2": {
+            "Exercice": "Que d'accrocs dans cette histoire",
+            "Capacités stimulées": "Langage, Logique grammaticale, Raisonnement",
+            "N1": "✅",
+            "N2": "✅"
+        },
+        "Row_3": {
+            "Exercice": "Menez l'enquête",
+            "Capacités stimulées": "Connaissance de la langue française",
+            "N1": "✅",
+            "N2": "✅"
+        }
+    },
+    "TableDict": {
+        "Row_0": {
+            "Indicateur": "Taille du vocabulaire",
+            "Valeur": 275,
+            "Comparaison": "",
+            "Norme": "268 - 461"
+        },
+        "Row_1": {
+            "Indicateur": "Temps moyen de parole par heure",
+            "Valeur": 28,
+            "Comparaison": "&#129045;",
+            "Norme": "13 - 26"
+        },
+        "Row_2": {
+            "Indicateur": "Débit de parole",
+            "Valeur": 2.9,
+            "Comparaison": "",
+            "Norme": "2.7 - 4.1"
+        },
+        "Row_3": {
+            "Indicateur": "Taille moyenne d'énoncé",
+            "Valeur": "8.2 ± 10.2",
+            "Comparaison": "&#129047;",
+            "Norme": "8.4 - 11.8"
+        },
+        "Row_4": {
+            "Indicateur": "Durée moyenne d'énoncé",
+            "Valeur": "8.5 ± 4.5",
+            "Comparaison": "",
+            "Norme": "6.8 - 9.6"
+        },
+        "Row_5": {
+            "Indicateur": "Diversité lexicale",
+            "Valeur": 0.37,
+            "Comparaison": "&#129045;",
+            "Norme": "0.24 - 0.28"
+        },
+        "Row_6": {
+            "Indicateur": "Densité lexicale du contenu",
+            "Valeur": 0.58,
+            "Comparaison": "&#129047;",
+            "Norme": "0.59 - 0.65"
+        }
+    }
+}

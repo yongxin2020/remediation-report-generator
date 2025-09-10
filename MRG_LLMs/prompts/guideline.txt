@@ -1,0 +1,75 @@
+Vous devez résumer une séance de remédiation cognitive pour un orthophoniste. Une séance de remédiation cognitive implique un patient et un assistant virtuel. Cet assistant propose des exercices au patient afin de stimuler différentes fonctions cognitives comme le langage, la planification, ou la mémoire.
+
+Afin de résumer la séance vous utiliserez une transcription du dialogue entre l'assistant virtuel et le patient (et une fiche de journal des événements de la séance).
+
+Veuillez lire attentivement les informations ci-dessous et suivre les instructions :
+
+Déroulement d’une séance :
+Durant une séance, il y a trois phrases d’échange entre l’assistant virtuel et le participant : 1) Introduction et interrogation de assistant virtuel; 2) Phase d’entraînement / remédiation, explication des exercices, retour au participant après chaque exercice; 3) Retour de l’assistant virtuel en fin de séance et dialogue avec le participant.
+
+Durant la séance, huit exercices stimulant différentes capacités ont été effectués, chacun répété une fois. Ces exercices sont décrits ci-dessous, avec les capacités stimulées entre parenthèses :
+
+“Retrouvez votre chemin” (Mémoire de travail visuelle, Mémoire visuo-spatiale);
+“Objets, où êtes-vous ?” (Mémoire visuo-spatiale);
+“Que d'accrocs dans cette histoire” (Langage, Logique grammaticale, Raisonnement);
+“Jeux de blasons” (Mémoire visuelle, Attention visuelle);
+“Mettez de l'ordre dans ces comptes” (Manipulation des nombres, Traitement numérique);
+“Garçon SVP !” (Mémoire visuelle, Mémoire verbale);
+“Menez l'enquête” (Connaissance de la langue française);
+“Tours de Hanoi” (Mémoire de travail, Planification, Raisonnement).
+
+Nomenclature des log enregistrés durant le magicien d’Oz
+Voici une liste d'exemples des différents types d'informations enregistrées :
+
+Début de l’enregistrement :
+13:38:46:823 - ENRG|2021_06_17_13_38_46
+comporte le nom des fichier d'enregistrement vidéo
+
+Fin de l’enregistrement :
+14:05:07:314 - STOP
+
+Affichage de l’avatar en plein écran :
+13:41:24:354 - CONF|DIALOG
+
+Affichage des exercices en plein écran :
+13:38:47:504 - CONF|EXERCICE
+
+Énoncé de l'assistant virtuel à destination du patient :
+13:51:24:317 - LOG|TXT|2630|Alors, comment s'est passé ce nouveau service au restaurant ? Est-ce que vous vous en êtes sorti(e) ?
+
+Bouton cliqué par Isabella résumant les propos du sujet :
+13:50:22:022 - LOG|REP|363|oui
+
+Résultat de l’exercice :
+13:51:21:901 - LOG|ENDGAME|1
+3 valeurs possibles :
+1 : réussi
+0 : moyen
+-1 : raté
+
+Consignes à respecter :
+
+Rédigez un rapport en respectant les consignes et décrivez les différents aspects ci-dessous :
+Identifier les éléments importants dans le contenu et organisationnels
+Contenu de la conversation entre l’assistant virtuel et le patient : Thèmes (de quels thèmes ont-ils parlé ?); Motivation (le patient est-il motivé pour les exercices ?); Fatigue (le patient se sent-il fatigué pendant la session ?); Gestion de difficulté (le patient a-t-il rencontré des difficultés en faisant les exercices et comment les a-t-il résolues ? ); Compréhension (le patient a-t-il eu des incompréhensions sur les exercices ?); Sentiment de compétence (comment le patient se sent-il par rapport à ses compétences et aux résultats des exercices ?); Aspects langagiers (l'utilisation du langage et de la communication verbale par le patient).
+
+Étapes de la génération du rapport :
+
+1. Lisez attentivement la transcription du dialogue et identifiez les points clés.
+2. Lisez attentivement le fichier log et identifiez les points clés.
+3. Rédigez un rapport en suivant les instructions données dans ce document.
+4. Faites en sorte que le rapport couvre les points clés de la session de remédiation, et qu'il les présente dans un ordre clair et logique.
+
+Le rapport ne doit pas contenir de diagnostic ou d’interprétation mais se concentrer sur les données factuelles. Il vaut mieux rester sur des observations descriptives, objectives et neutres.
+
+Exemple :
+
+Transcriptions du dialogue :
+
+{{Transcript}}
+
+Fichier log :
+
+{{Log}}
+
+Veuillez rédiger un rapport afin d’informer un orthophoniste sur le déroulé de cette séance, fournissez votre réponse dans un bloc de code markdown :

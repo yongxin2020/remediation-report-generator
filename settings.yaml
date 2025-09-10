@@ -1,0 +1,56 @@
+# ########################################
+# Cognitive Remediation Session Summarization
+# LOCAL DEVELOPMENT Configuration
+# ########################################
+# 
+# NOTE: This file contains local development paths
+# You should create your own 'settings.yaml'
+#
+
+# Base paths - MODIFY THESE FOR YOUR LOCAL ENVIRONMENT
+paths:
+  # Main data repository - UPDATE THIS PATH
+  main: /data/sauvegarde/processed_theradia_data_v0/private_dataset
+  transcripts: "Transcripts and Logs"
+
+  # Output directories - UPDATE THESE PATHS  
+  output: ./generate
+  statistics: ./statistics
+
+  # Participant-specific paths - UPDATE THESE PATHS
+  participant:
+    audio: "/data/yongxin/THERADIA_MRG/Data/WavsProcessed/{participant}"
+    video: "/data/sauvegarde/processed_theradia_data_v0/private_dataset/{group}-subjects/{participant}/{participant}_seance{num_seance}_*/Video/video_segments_farfield"
+    transcripts: "/data/depot/processed-theradia-data_v0/{group}-subjects/{participant}/{participant}_seance{num_seance}_*/Transcripts and Logs/{participant}_seance{num_seance}_*"
+
+  # Generated files
+  markdown: "./generate/Report_MD_files"
+  json: "./generate/data.json"
+
+  # Emotion analysis paths
+  emotion:
+    test_set_intensity: "./emotion_analysis/emoReco_MRG_archived/LabelsProbability_TestSet.csv"
+    test_set_frequency: "./emotion_analysis/emoReco_MRG_archived/LabelsFrequency_TestSet.csv"
+    results_dir: "./emotion_analysis/emoReco_MRG"
+
+# File configurations
+file_patterns:
+  user_stats: "User_Info_Stat.csv" # !ref <paths.statistics>/User_Info_Stat.csv
+  dialogue_csv: "{participant}_seance{num_seance}_*_audio_farfield_trs.csv" 
+  log_file: "{participant}_seance{num_seance}_*.log" 
+  exercise_results: "{participant}_seance{num_seance}_*_session_performance.csv"
+
+subjects:
+  # Example subject group mappings (optional)
+  group_prefixes:
+    M: "M-subjects"
+    A: "A-subjects"
+
+# Runtime options
+options:
+  write_files: true  # Set to false to run in dry mode
+  debug_mode: false
+  max_workers: 4      # For parallel processing
+  test_mode: False  # Set to False for full run
+  max_test_files: 2  # Number of files to process in test mode
+
